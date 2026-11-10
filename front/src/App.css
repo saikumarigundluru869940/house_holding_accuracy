@@ -1,0 +1,18 @@
+:root { font-family: system-ui, sans-serif; color: #18211c; background: #f3f5f1; }
+body { margin: 0; }
+main { max-width: 640px; margin: 0 auto; padding: 24px 16px 60px; }
+h1 { margin: 0 0 16px; }
+form { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; }
+input, select { padding: 9px; border: 1px solid #c8d0c9; border-radius: 6px; font: inherit; }
+button { grid-column: 1 / -1; padding: 11px; border: 0; border-radius: 6px; background: #1f6f54; color: #fff; font: inherit; cursor: pointer; }
+button:disabled { opacity: 0.6; }
+.metrics { width: 100%; border-collapse: collapse; background: #fff; }
+.metrics caption { text-align: left; margin-bottom: 6px; color: #5d6b63; }
+.metrics th, .metrics td { padding: 8px; border: 1px solid #d9dfd8; text-align: left; }
+.result { margin-top: 20px; padding: 16px; background: #fff; border: 1px solid #d9dfd8; border-radius: 8px; }
+.price { font-size: 1.8rem; font-weight: 600; margin: 0 0 6px; }
+.error { color: #b23a48; margin-top: 16px; }
+@media (max-width: 520px) { form { grid-template-columns: 1fr; } }
+
+pre { margin: 0; white-space: pre-wrap; }

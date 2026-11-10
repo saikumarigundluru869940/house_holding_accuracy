@@ -1,0 +1,26 @@
+{
+  "metrics": {
+    "Linear Regression": {
+      "r2": 0.9647,
+      "mae": 6.05
+    },
+    "Random Forest": {
+      "r2": 0.9447,
+      "mae": 7.64
+    }
+  },
+  "model_used": "Linear Regression",
+  "cities": [
+    "Bengaluru",
+    "Chennai",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Pune"
+  ],
+  "furnishing": [
+    "Furnished",
+    "Semi-Furnished",
+    "Unfurnished"
+  ]
+}
